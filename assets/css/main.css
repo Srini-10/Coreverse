@@ -11410,11 +11410,16 @@ software_web
 .filled{
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to right, blue, white);
+  background-image: linear-gradient(to right, blue);
 }
 .main-nav{
-  background-color: #fff;
+  backdrop-filter: blur(100%);
+  opacity: 500%;
 }
+.nav-m{
+  opacity: 150%;
+}
+
 .nav-main{
   margin-top: 0%;
 }
