@@ -11402,6 +11402,9 @@ software_web
   form_register
 -----------------------------*/
 
+.Body{
+  overscroll-behavior-y: none;
+}
 .progress-bar{
   position: fixed;
   width: 100%;
@@ -11411,10 +11414,11 @@ software_web
   width: 100%;
   height: 100%;
   background-image: linear-gradient(to right, blue);
+  transition: width 0.2s ease-out;
 }
 .main-nav{
   backdrop-filter: blur(100%);
-  opacity: 500%;
+  opacity: 100%;
 }
 .nav-m{
   opacity: 150%;
