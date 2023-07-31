@@ -1,13 +1,3 @@
-/* Scroll Bar */
-/* ::-webkit-scrollbar{
-  width: 7px;
-}
-::-webkit-scrollbar-thumb{
-  width: 5px;
-  background-color: #387aff;
-  border-radius: 20px;
-} */
-
 @charset "UTF-8";
 /*----------------------------------------------------
 @File: Default Styles
@@ -124,15 +114,15 @@ CircularStd @font-face kit
 -----------------------------*/
 @font-face {
   font-family: "CircularStd";
-  src: url("../fonts/text-font/CircularStd-Black.eot");
-  src: url("../fonts/text-font/CircularStd-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/text-font/CircularStd-Black.woff") format("woff"), url("../fonts/text-font/CircularStd-Black.ttf") format("truetype"), url("../fonts/text-font/CircularStd-Black.svg#bcc26993292869431e54c666aafa8fcd") format("svg");
+  src: url("fonts/text-font/CircularStd-Black.eot");
+  src: url("fonts/text-font/CircularStd-Black.eot?#iefix") format("embedded-opentype"), url("fonts/text-font/CircularStd-Black.woff") format("woff"), url("fonts/text-font/CircularStd-Black.ttf") format("truetype"), url("fonts/text-font/CircularStd-Black.svg#bcc26993292869431e54c666aafa8fcd") format("svg");
   font-weight: 800;
   font-style: normal;
 }
 @font-face {
   font-family: "CircularStd";
-  src: url("../fonts/text-font/CircularStd-BlackItalic.eot");
-  src: url("../fonts/text-font/CircularStd-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/text-font/CircularStd-BlackItalic.woff") format("woff"), url("../fonts/text-font/CircularStd-BlackItalic.ttf") format("truetype"), url("../fonts/text-font/CircularStd-BlackItalic.svg#bcc26993292869431e54c666aafa8fcd") format("svg");
+  src: url("fonts/text-font/CircularStd-BlackItalic.eot");
+  src: url("fonts/text-font/CircularStd-BlackItalic.eot?#iefix") format("embedded-opentype"), url("fonts/text-font/CircularStd-BlackItalic.woff") format("woff"), url("fonts/text-font/CircularStd-BlackItalic.ttf") format("truetype"), url("fonts/text-font/CircularStd-BlackItalic.svg#bcc26993292869431e54c666aafa8fcd") format("svg");
   font-weight: 800;
   font-style: italic;
 }
@@ -141,15 +131,15 @@ CircularStd @font-face kit
 -----------------------------*/
 @font-face {
   font-family: "CircularStd";
-  src: url("../fonts/text-font/CircularStd-Bold.eot");
-  src: url("../fonts/text-font/CircularStd-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/text-font/CircularStd-Bold.woff") format("woff"), url("../fonts/text-font/CircularStd-Bold.ttf") format("truetype"), url("../fonts/text-font/CircularStd-Bold.svg#bcc26993292869431e54c666aafa8fcd") format("svg");
+  src: url("fonts/text-font/CircularStd-Bold.eot");
+  src: url("fonts/text-font/CircularStd-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/text-font/CircularStd-Bold.woff") format("woff"), url("fonts/text-font/CircularStd-Bold.ttf") format("truetype"), url("fonts/text-font/CircularStd-Bold.svg#bcc26993292869431e54c666aafa8fcd") format("svg");
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: "CircularStd";
-  src: url("../fonts/text-font/CircularStd-BoldItalic.eot");
-  src: url("../fonts/text-font/CircularStd-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/text-font/CircularStd-BoldItalic.woff") format("woff"), url("../fonts/text-font/CircularStd-BoldItalic.ttf") format("truetype"), url("../fonts/text-font/CircularStd-BoldItalic.svg#bcc26993292869431e54c666aafa8fcd") format("svg");
+  src: url("fonts/text-font/CircularStd-BoldItalic.eot");
+  src: url("fonts/text-font/CircularStd-BoldItalic.eot?#iefix") format("embedded-opentype"), url("fonts/text-font/CircularStd-BoldItalic.woff") format("woff"), url("fonts/text-font/CircularStd-BoldItalic.ttf") format("truetype"), url("fonts/text-font/CircularStd-BoldItalic.svg#bcc26993292869431e54c666aafa8fcd") format("svg");
   font-weight: 600;
   font-style: italic;
 }
@@ -158,15 +148,15 @@ CircularStd @font-face kit
 -----------------------------*/
 @font-face {
   font-family: "CircularStd";
-  src: url("../fonts/text-font/CircularStd-Medium.eot");
-  src: url("../fonts/text-font/CircularStd-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/text-font/CircularStd-Medium.woff") format("woff"), url("../fonts/text-font/CircularStd-Medium.ttf") format("truetype"), url("../fonts/text-font/CircularStd-Medium.svg#bcc26993292869431e54c666aafa8fcd") format("svg");
+  src: url("fonts/text-font/CircularStd-Medium.eot");
+  src: url("fonts/text-font/CircularStd-Medium.eot?#iefix") format("embedded-opentype"), url("fonts/text-font/CircularStd-Medium.woff") format("woff"), url("fonts/text-font/CircularStd-Medium.ttf") format("truetype"), url("fonts/text-font/CircularStd-Medium.svg#bcc26993292869431e54c666aafa8fcd") format("svg");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "CircularStd";
-  src: url("../fonts/text-font/CircularStd-MediumItalic.eot");
-  src: url("../fonts/text-font/CircularStd-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/text-font/CircularStd-MediumItalic.woff") format("woff"), url("../fonts/text-font/CircularStd-MediumItalic.ttf") format("truetype"), url("../fonts/text-font/CircularStd-MediumItalic.svg#bcc26993292869431e54c666aafa8fcd") format("svg");
+  src: url("fonts/text-font/CircularStd-MediumItalic.eot");
+  src: url("fonts/text-font/CircularStd-MediumItalic.eot?#iefix") format("embedded-opentype"), url("fonts/text-font/CircularStd-MediumItalic.woff") format("woff"), url("fonts/text-font/CircularStd-MediumItalic.ttf") format("truetype"), url("fonts/text-font/CircularStd-MediumItalic.svg#bcc26993292869431e54c666aafa8fcd") format("svg");
   font-weight: 500;
   font-style: italic;
 }
@@ -175,15 +165,15 @@ CircularStd @font-face kit
 -----------------------------*/
 @font-face {
   font-family: "CircularStd";
-  src: url("../fonts/text-font/CircularStd-Book.eot");
-  src: url("../fonts/text-font/CircularStd-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/text-font/CircularStd-Book.woff") format("woff"), url("../fonts/text-font/CircularStd-Book.ttf") format("truetype"), url("../fonts/text-font/CircularStd-Book.svg#bcc26993292869431e54c666aafa8fcd") format("svg");
+  src: url("fonts/text-font/CircularStd-Book.eot");
+  src: url("fonts/text-font/CircularStd-Book.eot?#iefix") format("embedded-opentype"), url("fonts/text-font/CircularStd-Book.woff") format("woff"), url("fonts/text-font/CircularStd-Book.ttf") format("truetype"), url("fonts/text-font/CircularStd-Book.svg#bcc26993292869431e54c666aafa8fcd") format("svg");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "CircularStd";
-  src: url("../fonts/text-font/CircularStd-BookItalic.eot");
-  src: url("../fonts/text-font/CircularStd-BookItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/text-font/CircularStd-BookItalic.woff") format("woff"), url("../fonts/text-font/CircularStd-BookItalic.ttf") format("truetype"), url("../fonts/text-font/CircularStd-BookItalic.svg#bcc26993292869431e54c666aafa8fcd") format("svg");
+  src: url("fonts/text-font/CircularStd-BookItalic.eot");
+  src: url("fonts/text-font/CircularStd-BookItalic.eot?#iefix") format("embedded-opentype"), url("fonts/text-font/CircularStd-BookItalic.woff") format("woff"), url("fonts/text-font/CircularStd-BookItalic.ttf") format("truetype"), url("fonts/text-font/CircularStd-BookItalic.svg#bcc26993292869431e54c666aafa8fcd") format("svg");
   font-weight: 400;
   font-style: italic;
 }
@@ -361,6 +351,16 @@ img {
     margin-bottom: 2.5rem;
   }
 }
+
+/* Scroll Bar */
+::-webkit-scrollbar{
+  width: 7px;
+}
+::-webkit-scrollbar-thumb{
+  width: 5px;
+  background-color: #387aff;
+  border-radius: 20px;
+} 
 
 /*-----------------------------
   logo
@@ -576,7 +576,7 @@ img {
 -----------------------------*/
 .main_sass::before {
   content: "";
-  background-image: url("../img/bg-cubic.svg");
+  background-image: url("img/bg-cubic.svg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -3736,7 +3736,7 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 }
 .demo_1.banner_section .image_product:before {
   content: "";
-  background-image: url("../img/shape-before-web.svg");
+  background-image: url("img/shape-before-web.svg");
   background-repeat: no-repeat;
   background-size: contain;
   width: 150px;
@@ -3800,7 +3800,7 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 }
 .demo_3.banner_section:before {
   content: "";
-  background-image: url("../img/shpaeboxes.svg");
+  background-image: url("img/shpaeboxes.svg");
   background-repeat: no-repeat;
   position: absolute;
   top: 10%;
@@ -3945,7 +3945,7 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
   left: 40%;
   width: 123px;
   height: 123px;
-  background-image: url("../img/best.png");
+  background-image: url("img/best.png");
   background-repeat: no-repeat;
   background-size: contain;
   z-index: 5;
@@ -4021,10 +4021,9 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 }
 
 /*-----------------------------
-  banner_demo6
+  banner_demo6 Background Image
 -----------------------------*/
 .banner_demo6 {
-  background-image: url("https://cdn.wallpapersafari.com/86/65/nqENxl.jpg") !important;
   background-size: cover !important;
   width: 100%;
   height: 100% !important;
@@ -4280,7 +4279,7 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 }
 .demo__workspace::before {
   content: "";
-  background: url(../img/workspace/banner-abstract.png);
+  background: url(img/workspace/banner-abstract.png);
   left: 0;
   top: -10%;
   width: 100%;
@@ -4386,7 +4385,7 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 }
 .demo__software::before {
   content: "";
-  background-image: url("../img/software/bg-soft.png");
+  background-image: url("img/software/bg-soft.png");
   background-repeat: no-repeat;
   background-size: 100%;
   position: absolute;
@@ -4542,7 +4541,7 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 }
 .demo__software .element_ui::before {
   content: "";
-  background-image: url("../img/software/point-bg.svg");
+  background-image: url("img/software/point-bg.svg");
   width: 682px;
   position: absolute;
   bottom: -80%;
@@ -4631,7 +4630,7 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("../img/workspace/bg-about.png");
+  background-image: url("img/workspace/bg-about.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position-y: 120%;
@@ -4657,7 +4656,7 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 }
 .banner_cotact_four::before {
   content: "";
-  background-image: url("../img/inner/bg-contact.png");
+  background-image: url("img/inner/bg-contact.png");
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100%;
@@ -4808,7 +4807,7 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 -----------------------------*/
 .banner_blog_inner {
   position: relative;
-  background-image: url("../img/inner/647.png");
+  background-image: url("img/inner/647.png");
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100%;
@@ -4908,7 +4907,7 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 -----------------------------*/
 .banner_app_two {
   position: relative;
-  background: url("../img/app/00000.png");
+  background: url("img/app/00000.png");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -5402,7 +5401,7 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 }
 .integration__logo .block__circle::before {
   content: "";
-  background-image: url("../img/software/bg-logo.png");
+  background-image: url("img/software/bg-logo.png");
   width: 100%;
   height: 685px;
   position: absolute;
@@ -5736,7 +5735,7 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 -----------------------------*/
 .services_section .items_serv .item-img {
   position: relative;
-  background-image: url("../img/shape-before.svg");
+  background-image: url("img/shape-before.svg");
   background-repeat: no-repeat;
   display: block;
   width: 97px;
@@ -6313,7 +6312,7 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
   width: 100%;
   height: 100%;
   background-size: 100%;
-  background-image: url("../img/workspace/serv_abstract.png");
+  background-image: url("img/workspace/serv_abstract.png");
   background-repeat: no-repeat;
   bottom: 0;
   left: -7%;
@@ -6727,7 +6726,7 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 }
 .features_section .images_desc:before {
   content: "";
-  background-image: url("../img/shape-before-web.svg");
+  background-image: url("img/shape-before-web.svg");
   background-repeat: no-repeat;
   background-size: contain;
   width: 150px;
@@ -6965,7 +6964,7 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 }
 .features_hosting:before {
   content: "";
-  background-image: url("../img/hosting/14301.png");
+  background-image: url("img/hosting/14301.png");
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
@@ -7593,7 +7592,7 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
   position: absolute;
   bottom: -2px;
   z-index: 2;
-  background-image: url("../img/software/gradient.png");
+  background-image: url("img/software/gradient.png");
   background-repeat: no-repeat;
 }
 @media (max-width: 991px) {
@@ -8001,7 +8000,7 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 }
 .product_demo2 .item_pro .icon_t {
   background-image: none !important;
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: #165df5;
   width: 60px;
   height: 60px;
   border-radius: 25px;
@@ -9101,7 +9100,7 @@ software_web
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../img/bg-cubic.svg);
+  background-image: url(img/bg-cubic.svg);
   opacity: 0.12;
   background-repeat: no-repeat;
   background-size: cover;
@@ -9770,7 +9769,7 @@ software_web
   content: "";
   position: absolute;
   left: 12%;
-  background-image: url("../img/ill_faq.svg");
+  background-image: url("img/ill_faq.svg");
   background-repeat: no-repeat;
   background-size: contain;
   width: 408px;
@@ -9994,7 +9993,7 @@ software_web
 }
 .tryit_now:before {
   content: "";
-  background-image: url("../img/shpaeboxes.svg");
+  background-image: url("img/shpaeboxes.svg");
   background-repeat: no-repeat;
   position: absolute;
   top: 0;
@@ -10110,7 +10109,7 @@ software_web
   gbo_contact
 -----------------------------*/
 .gbo_contact {
-  background-image: url("../img/0987.jpg");
+  background-image: url("img/0987.jpg");
   background-repeat: no-repeat;
   width: 100%;
   position: relative;
@@ -10153,7 +10152,7 @@ software_web
 }
 .need_help_sec .block_help:before {
   content: "";
-  background-image: url("../img/hosting/light.png");
+  background-image: url("img/hosting/light.png");
   background-repeat: no-repeat;
   background-size: 140%;
   position: absolute;
@@ -10239,7 +10238,7 @@ software_web
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("../img/workspace/bg-about.png");
+  background-image: url("img/workspace/bg-about.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: 50% 50%;
@@ -10656,7 +10655,7 @@ software_web
 .creative_box_contact .content::before {
   content: "";
   position: absolute;
-  background-image: url("../img/inner/line-cc.svg");
+  background-image: url("img/inner/line-cc.svg");
   background-repeat: no-repeat;
   background-position-x: -430px;
   background-position-y: -190px;
@@ -10757,7 +10756,7 @@ software_web
 .gn_testimonial {
   position: relative;
   overflow: hidden;
-  background-image: url("../img/lines014.svg");
+  background-image: url("img/lines014.svg");
   background-repeat: no-repeat;
   width: 100%;
 }
@@ -11403,10 +11402,6 @@ software_web
   form_register
 -----------------------------*/
 
-.mx-auto{
-  min-width: 50%;
-  margin-top: -3%;
-}
 .nav-main{
   margin-top: 0%;
 }
@@ -11419,41 +11414,17 @@ software_web
   margin-left: 50%;
   margin-right: -50%;
 }
-.footer-div{
-  margin-left: 20%;
-  min-width: 70%;
-  margin-bottom: 30%;
+.col-6{
+  display: flex;
 }
-.footer-top{
-  margin-top: -20%;
-  margin-bottom: 20%;
-}
-.space-footer-link{
-  margin-right: -30%;
+.defalut-footer{
   margin-left: 0%;
 }
-.auto-space-footer{
-  margin-top: -15%;
+.footer-space{
+  margin-right: -4.8%;
 }
-.col-6-flex{
-  display: flex;
-  width: 150%;
-  margin-left: -100%;
-  margin-bottom: 5%;
-  margin-top: 40%;
-}
-.copyright{
-  margin-bottom: -82%;
-}
-.copyright span{
-  text-align: center;
-  margin-left: -74%;
-  margin-right: 74%;
-  margin-bottom: -100%;
-}
-.col-6{
-  margin-top: 0%;
-  min-width: 30%;
+.margin-b-footer-events{
+  margin-bottom: -9.5%;
 }
 
 .form_register {
@@ -11504,7 +11475,7 @@ software_web
   section_account
 -----------------------------*/
 .section_account .fixed_side_data {
-  background: url("../img/signup.png");
+  background: url("img/signup.png");
   background-repeat: no-repeat;
   position: fixed;
   left: 0;
@@ -11585,7 +11556,7 @@ software_web
   display: grid;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url("../img/inner/01.jpg");
+  background-image: url("img/inner/01.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -11691,7 +11662,7 @@ software_web
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("../img/workspace/bg-about.png");
+  background-image: url("img/workspace/bg-about.png");
   background-size: 100%;
   background-position-y: 90%;
   position: fixed;
@@ -11921,7 +11892,7 @@ software_web
 .about_agency:before {
   content: "";
   display: block;
-  background: url("../img/agency/grid.svg");
+  background: url("img/agency/grid.svg");
   background-repeat: no-repeat;
   width: 820px;
   height: 260px;
@@ -11996,7 +11967,7 @@ software_web
   height: 100%;
   top: 0;
   left: 0;
-  background-image: url(../img/workspace/bg-about.png);
+  background-image: url(img/workspace/bg-about.png);
   background-repeat: no-repeat;
   background-size: 100%;
   z-index: 0;
@@ -15640,7 +15611,7 @@ software_web
   top: 0;
   width: 100%;
   height: 100%;
-  background: url("../img/app/mask.svg");
+  background: url("img/app/mask.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -20150,13 +20121,13 @@ html:not(.no-js) [data-aos="fade-up"] {
 -----------------------------*/
 .foot_demo2 {
   position: relative;
-  background-color: #040309 !important;
+  background-color: #001638 !important;
   z-index: 1;
   overflow: hidden;
 }
 .foot_demo2:before {
   content: "";
-  background: url("../img/hosting/01.png");
+  background: url("img/hosting/01.png");
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
@@ -20178,19 +20149,19 @@ html:not(.no-js) [data-aos="fade-up"] {
   display: none;
 }
 .foot_demo2 .item_subscribe .form-group.subscribebtn .item_input input {
-  border-radius: 8px !important;
+  border-radius: 28px !important;
   background-color: #ffffff !important;
-  color: #0b2238 !important;
+  color: black !important;
 }
 .foot_demo2 .item_subscribe .form-group.subscribebtn .item_input input::placeholder {
-  color: #6c7a87 !important;
+  color: lightgrey !important;
 }
 .foot_demo2 .item_subscribe .form-group.subscribebtn .item_input .btn_subscribe {
-  border-radius: 8px !important;
-  background-color: #f93542 !important;
+  border-radius: 50% !important;
+  background-color: #0056ff !important;
 }
 .foot_demo2 .item_subscribe .form-group.subscribebtn .item_input .btn_subscribe:focus:before {
-  background: #f93542;
+  background: #0076ff;
 }
 
 /*-----------------------------
@@ -20216,7 +20187,7 @@ html:not(.no-js) [data-aos="fade-up"] {
 }
 .foot_demo3:after {
   content: "" !important;
-  background: url("../img/agency/3224657.svg") no-repeat 50% 50%;
+  background: url("img/agency/3224657.svg") no-repeat 50% 50%;
   display: block;
   width: 100%;
   height: 100%;
