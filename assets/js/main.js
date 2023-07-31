@@ -123,6 +123,35 @@
     /*-----------------------------
       Effect on Menu for Mobile
     -----------------------------*/
+
+    // const filled = document.querySelector('.filled');
+
+    //   function update() {
+    //     filled.style.width = '$((window.scrollY) / (document.body.scrollHeight - window.innerHeight) * 100))%'
+    //     requestAnimationFrame(update);
+    //   }
+
+    //   update();
+
+    const progressBar = document.querySelector('.progress-bar');
+    const section = document.querySelector('#wrapper');
+
+    const animateProressBar = () => {
+      let scrollDistance = -section.getBoundingClientRect().top;
+      let progressWidth = (scrollDistance / 
+                  (section.getBoundingClientRect().height - document.documentElement.clientHeight)) *
+                  100;
+
+            let value = Math.floor(progressWidth);
+            progressBar.style.width = value + '%';
+    };
+
+    window.addEventListener('scroll', animateProressBar);
+
+
+    /*-----------------------------
+      Effect on Menu for Mobile
+    -----------------------------*/
     document.querySelectorAll('.menu').forEach(btn => {
       btn.addEventListener('click', e => {
         btn.classList.toggle('active');

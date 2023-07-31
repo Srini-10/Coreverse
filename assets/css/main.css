@@ -11402,6 +11402,19 @@ software_web
   form_register
 -----------------------------*/
 
+.progress-bar{
+  position: fixed;
+  width: 100%;
+  height: 1vh;
+}
+.filled{
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, blue, white);
+}
+.main-nav{
+  background-color: #fff;
+}
 .nav-main{
   margin-top: 0%;
 }
