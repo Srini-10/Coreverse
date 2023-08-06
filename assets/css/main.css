@@ -355,12 +355,27 @@ img {
 /* Scroll Bar */
 ::-webkit-scrollbar{
   width: 7px;
+  background-color: #fff;
 }
 ::-webkit-scrollbar-thumb{
   width: 5px;
   background-color: #387aff;
   border-radius: 20px;
 } 
+
+.cursor{
+  z-index: 999;
+  background: black;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px black,
+              0 0 20px black,
+              0 0 20px black,;
+}
+.cursor::before{
+  cursor: url;
+}
 
 /*-----------------------------
   logo
@@ -11406,8 +11421,9 @@ software_web
   overscroll-behavior-y: none;
 }
 .progress-bar{
+  top: 0;
   position: fixed;
-  width: 100%;
+  width: 0%;
   height: 1vh;
 }
 .filled{
@@ -11423,7 +11439,9 @@ software_web
 .nav-m{
   opacity: 150%;
 }
-
+.br{
+  line-height: 0px;
+}
 .nav-main{
   margin-top: 0%;
 }
