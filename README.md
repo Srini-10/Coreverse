@@ -1,1 +1,1 @@
-# coreverse.netlify.app
+coreverse.netlify.app
