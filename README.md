@@ -1,1 +1,1 @@
-coreverse.netlify.app
+https://coreverse.netlify.app
